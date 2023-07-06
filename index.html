@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validação de dados</h1>
+        <h2>Formulário</h2>
+        <form id="form-validacao">
+            <input type="number" id="numero1" required placeholder="Insira o primeiro número">
+            <input type="number" id="numero2" required placeholder="Insira o segundo número">
+            <button type="submit" id="btn-enviar" onclick="validarFormulario()">
+                Enviar
+            </button>
+        </form>
+        <p class="message-success"></p>
+        <p class="message-error"> O <b>primeiro número</b> é maior que o <b>segundo número</b>;</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
