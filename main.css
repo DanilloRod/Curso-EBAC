@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 236, 234);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+   padding: 18px 0;
+   font-weight: bold;
+}
+
+form label, 
+form input {
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+    max-width: 360px;
+    width: 100%;
+}
+
+form label { 
+    font-size: 18px;
+}
+
+button {
+    margin-top: 24px;
+    padding: 8px;
+    width: 240px;
+    background-color: rgb(45, 147, 45);
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
